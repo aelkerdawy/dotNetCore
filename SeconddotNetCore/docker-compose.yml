@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  firstdotnetcore:
+    image: firstdotnetcore
+    build:
+      context: ./../firstDotNetCore
+      dockerfile: Dockerfile
